@@ -1,4 +1,4 @@
-# Advertisement-Budget-Sales-Prediction
+# Advertisement Budget Sales Prediction using linear regression
 
 ### 📌 Description  
 A Linear Regression project to analyze and predict sales based on TV, Radio, and Newspaper advertisement budgets.
@@ -18,7 +18,7 @@ This project demonstrates how linear regression can be applied to a marketing da
 
 ---
 
-## 📈 Results Summary  
+## 📊 Results Summary  
 
 | Metric         | With Outliers | Without Outliers |
 |----------------|----------------|-------------------|
@@ -29,7 +29,14 @@ This project demonstrates how linear regression can be applied to a marketing da
 **Insights:**  
 - TV and Radio have the strongest influence on sales.  
 - Newspaper budget has minimal impact.  
-- Removing outliers reduces accuracy slightly but offers more stable predictions. 
+- Removing outliers reduces accuracy slightly but offers more stable predictions.
+
+---
+
+## ✅ Model Usage Guidance
+
+- **Use the one _without outliers_** when you want a **more stable and fair predictor**.
+- **Use the one _with outliers_** when you're okay with **higher sensitivity but possible overfitting**.
 
 ---
 
@@ -37,4 +44,3 @@ This project demonstrates how linear regression can be applied to a marketing da
 1. Clone the repository  
 2. Open the Jupyter/Colab notebook  
 3. Run all cells to view analysis and predictions  
-
